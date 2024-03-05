@@ -1,0 +1,248 @@
+.contenedor{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index:1;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  width: 222vh;
+  height: 100vh;
+  overflow: hidden;
+  margin:-5ch;
+  color: rgb(244, 238, 230); */
+
+}
+
+.video-fondo{
+  width: 150%;
+  height: 130%;
+}
+
+.contenedorTex{
+    position: absolute;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    flex-direction: row;
+    width:75rem;
+    font-size: 55%;
+    background-color:rgba(114, 85, 142, 0.315);
+    margin-top: -14rem;
+    padding: 0.5rem ;
+    border-radius: 1rem;
+    
+}
+.MiFoto{
+    display: flex;
+    width: 6rem;
+    height: 8rem;
+    justify-content: end; 
+    margin-left: 18rem; 
+    margin-top: 1rem;
+}
+
+.textos{
+  display: flex;
+  flex-direction: column;
+  color: rgb(189, 161, 125);
+}
+.miNombreEs{
+  color: rgb(189, 161, 125);
+  font-size: 1rem;
+  margin-top: -0rem;
+  margin-bottom: 0rem;
+}
+.foto{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 1rem;
+
+
+}
+.texto{
+  font-size: 1rem;
+  width: 50rem;
+  text-align: justify;
+  color: rgb(240, 233, 224);
+
+}
+.contenedor-proyect{
+  position: absolute;
+  justify-content: right; 
+  justify-content: end;
+  margin-top: 19rem;
+  margin-left: 49rem;
+ 
+}
+.proyect{
+    color: rgb(228, 191, 154);
+    font-size: 200%;
+    align-items: start;
+    display: flex;
+    width: 18rem;
+    margin-bottom: -0.5rem;
+}
+
+.proyectLet{
+  font-size: 1rem;
+  color: azure;
+  font-size: 130%;
+    margin-bottom: 0.1rem;
+    width: 13rem;
+    display: flex;
+    font-weight: bolder;
+  /* text-decoration: underline; */
+}
+.contenedor-redes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: right; 
+    justify-content: end;
+    margin-top: 16rem;
+    margin-right: 60rem;
+    color: blanchedalmond;
+
+}
+.logoGit{
+  height: 5rem;
+  width: 5rem;
+  filter: invert() opacity(50%);
+  
+}
+.logoLinked{
+  height: 4rem;
+  width: 4rem;
+  filter: invert() opacity(50%);
+  margin: 3mm;
+}
+.logoWhasaap{
+  height: 5rem;
+  width: 5rem;
+  filter: invert() opacity(50%);
+  margin: 2mm;
+
+}
+
+.MiFoto412{
+  display: none;
+}
+
+.contenedor412{
+  display: none;
+}
+
+@media screen and (max-width: 412px){
+  .contenedor{
+    overflow: scroll;
+  }
+
+  .video-fondo{
+    width: 100rem;
+    position: fixed;
+  }
+
+  .contenedorTex{
+    width: 18rem;
+    margin-top: -10rem;
+  }
+
+  .Hola{
+    color: rgb(189, 161, 125);
+    font-size: 2rem;
+    margin-top: -0rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .miNombreEs{
+    color: rgb(189, 161, 125);
+    font-size: 1rem;
+    margin-top: -0rem;
+    margin-bottom: 0rem;
+  }
+
+  .textos{
+    width: 18rem;
+    height: 31rem;
+    font-size: 75%;
+  }
+
+  .texto{
+    width: 18rem;
+  }
+
+  .MiFoto{
+    display: none;
+  }
+
+  .MiFoto412{
+    width: 16rem;
+    display: flex;
+    justify-content: end;
+    margin-top: -3rem;
+    margin-bottom: -1rem;
+  }
+
+  .foto412{
+    width: 4rem;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 1rem black;
+  } 
+
+  .contenedor-proyect{
+    display: flex;
+    align-items: start;
+    margin: 0rem;
+    width: 10rem;
+    flex-direction: column;
+    margin-top: 35rem;
+    margin-right: 8.5rem;
+  }
+
+  .proyect{
+    font-size: 200%;
+    align-items: start;
+    display: flex;
+    width: 18rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .proyectLet{
+    font-size: 130%;
+    margin-bottom: 0.1rem;
+    width: 13rem;
+    display: flex;
+    font-weight: bolder;
+  }
+
+  .contenedor-redes{
+    flex-direction: column;
+    margin: 0;
+    margin-top: 38rem;
+    margin-left: 15rem;
+  }
+
+  .logoGit{
+    margin-bottom: -2.4rem;
+    margin-top: -1rem;
+  }
+
+  .logoLinked{
+    margin-bottom: -2rem;
+  }
+
+  .logoWhasaap{
+    margin-bottom: -2rem;
+  }
+
+}
