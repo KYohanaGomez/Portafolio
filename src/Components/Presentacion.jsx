@@ -26,7 +26,7 @@ const Presentacion = () => {
           <div className="MiFoto412">
           <img src={MiFoto} alt="MiFoto2" className='foto412' />
         </div>
-          <p className='miNombreEs'>Mi nombre es </p>
+          <p className='miNombreEs'>Mi nombre es</p>
           <h1>Kerly Yohana Gomez Giraldo</h1>
           <h1>💻 Full Stack Developer</h1>
           <p className='texto'>¡Bienvenido(a) a mi portafolio digital!
