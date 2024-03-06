@@ -1,5 +1,5 @@
-import fondo from '../img/video.mp4';
 import './Presentacion.css';
+import fondo from '../img/video.mp4';
 import MiFoto from '../img/MiFoto2.jpg';
 import logoGitGub from '../img/GitHub3.png';
 import logoLinkend from '../img/linkedin.svg'
