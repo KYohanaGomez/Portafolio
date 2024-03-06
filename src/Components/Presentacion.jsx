@@ -4,13 +4,13 @@ import MiFoto from '../img/MiFoto2.jpg';
 import logoGitGub from '../img/GitHub3.png';
 import logoLinkend from '../img/linkedin.svg'
 import logoWhatsap from '../img/Whatsaap.png'
-import { useEffect } from 'react';
+//import { useEffect } from 'react';
 
 
 const Presentacion = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <div className='contenedor'>
