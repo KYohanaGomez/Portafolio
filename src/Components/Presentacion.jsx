@@ -28,7 +28,7 @@ const Presentacion = () => {
         </div>
           <p className='miNombreEs'>Mi nombre es</p>
           <h1>Kerly Yohana Gomez Giraldo</h1>
-          <h1>💻 Full Stack Developer</h1>
+          <h1>💻 Desarrolladora Full Stack</h1>
           <p className='texto'>¡Bienvenido(a) a mi portafolio digital!
             Aquí encontrarás una muestra de mis proyectos,
             trabajos y logros que reflejan mi trayectoria
@@ -54,7 +54,7 @@ const Presentacion = () => {
         </p>
         </a>
        
-          <a href="https://github.com/KYohanaGomez/Proyecto_PI.gi" target="_blank">
+          <a href="https://github.com/KYohanaGomez/Proyecto_PI.git" target="_blank">
         <p className='proyectLet'>
         🟢 Countries
         </p>
