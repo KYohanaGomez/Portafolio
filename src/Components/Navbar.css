@@ -1,0 +1,134 @@
+.contenedor-de-todo{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index:1;
+    overflow: hidden;   
+}
+
+.contenedor-proyect{
+    position: absolute;
+    justify-content: right; 
+    justify-content: end;
+    margin-top:-13rem;
+    margin-left: -39rem;
+    
+  }
+.proyect{
+    color: rgb(228, 191, 154);
+    font-size: 250%;
+    align-items: start;
+    display: flex;
+    width: 19rem;
+    margin-bottom: -0.5rem;
+    margin-top: -0.3rem; 
+}
+.proyectLet{
+    font-size: 1rem;
+    color: azure;
+    font-size: 170%;
+    margin-bottom: 0.1rem;
+    width: 15rem;
+    display: flex;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+  }
+.contenedor-redes{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: right; 
+    justify-content: end;
+    margin-top: -19rem;
+    margin-right: -39rem;
+    color: blanchedalmond;
+
+}
+.logoGit{
+  height: 6rem;
+  width: 6rem;
+  filter: invert() opacity(50%);
+  
+}
+.logoLinked{
+  height: 5rem;
+  width: 5rem;
+  filter: invert() opacity(50%);
+  margin: 3mm;
+}
+.logoWhasaap{
+    height: 6rem;
+    width: 6rem;
+    filter: invert() opacity(50%);
+    margin: 2mm;
+  
+  }
+.flecha{
+    margin-left:-37rem;
+    border-radius: 20mm;
+    font-size: 100%;
+    background-color: rgb(209, 206, 206);
+    margin-bottom: 9rem;
+
+  }
+  @media screen and (max-width: 360px){
+    .contenedor-de-todo{
+      overflow: scroll;
+    }
+    .contenedor-proyect{
+      display: flex;
+      align-items: start;
+      margin: 0rem;
+      width: 10rem;
+      flex-direction: column;
+      margin-top: -24rem;
+      margin-right: 2rem;
+    }
+  
+    .proyect{
+      font-size: 200%;
+      align-items: start;
+      display: flex;
+      width: 18rem;
+      margin-bottom: -0.5rem;
+    }
+    .proyectLet{
+      font-size: 130%;
+      margin-bottom: 0.1rem;
+      width: 13rem;
+      display: flex;
+      font-weight: bolder;
+    }
+  
+    .contenedor-redes{
+      flex-direction: column;
+      margin: 0;
+      margin-top: 15rem;
+      margin-left: 1rem;
+    }
+  
+    .logoGit{
+      margin-bottom: -2.4rem;
+      margin-top: -1rem;
+    }
+  
+    .logoLinked{
+      margin-bottom: -2rem;
+    }
+  
+    .logoWhasaap{
+      margin-bottom: -2rem;
+    }
+    .flecha{
+      margin-left: -4rem;
+      border-radius: 20mm;
+      font-size: 70%;
+      margin-bottom: 2rem;
+  
+    }
+  }

@@ -21,6 +21,14 @@
   color: rgb(244, 238, 230); */
 
 }
+.botoNav{
+  width: 2rem;
+}
+.contenedorBoton{
+  display: flex;
+  justify-content: end;
+  width: 75rem;
+}
 
 .video-fondo{
   width: 150%;
@@ -36,18 +44,18 @@
     width:75rem;
     font-size: 55%;
     background-color:rgba(114, 85, 142, 0.315);
-    margin-top: -14rem;
+    margin-top: -5rem;
     padding: 0.5rem ;
     border-radius: 1rem;
     
 }
 .MiFoto{
     display: flex;
-    width: 6rem;
-    height: 8rem;
+    width: 10rem;
+    height: 10rem;
     justify-content: end; 
-    margin-left: 18rem; 
-    margin-top: 1rem;
+    margin-left: -16rem; 
+    margin-top: 6rem;
 }
 
 .textos{
@@ -62,8 +70,8 @@
   margin-bottom: 0rem;
 }
 .foto{
-  height: 10rem;
-  width: 10rem;
+  height: 15rem;
+  width: 15rem;
   border-radius: 1rem;
 
 
@@ -73,63 +81,6 @@
   width: 50rem;
   text-align: justify;
   color: rgb(240, 233, 224);
-
-}
-.contenedor-proyect{
-  position: absolute;
-  justify-content: right; 
-  justify-content: end;
-  margin-top: 19rem;
-  margin-left: 49rem;
- 
-}
-.proyect{
-    color: rgb(228, 191, 154);
-    font-size: 200%;
-    align-items: start;
-    display: flex;
-    width: 18rem;
-    margin-bottom: -0.5rem;
-}
-
-.proyectLet{
-  font-size: 1rem;
-  color: azure;
-  font-size: 130%;
-    margin-bottom: 0.1rem;
-    width: 13rem;
-    display: flex;
-    font-weight: bolder;
-  /* text-decoration: underline; */
-}
-.contenedor-redes{
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    justify-content: right; 
-    justify-content: end;
-    margin-top: 16rem;
-    margin-right: 60rem;
-    color: blanchedalmond;
-
-}
-.logoGit{
-  height: 5rem;
-  width: 5rem;
-  filter: invert() opacity(50%);
-  
-}
-.logoLinked{
-  height: 4rem;
-  width: 4rem;
-  filter: invert() opacity(50%);
-  margin: 3mm;
-}
-.logoWhasaap{
-  height: 5rem;
-  width: 5rem;
-  filter: invert() opacity(50%);
-  margin: 2mm;
 
 }
 
@@ -153,7 +104,8 @@
 
   .contenedorTex{
     width: 18rem;
-    margin-top: -10rem;
+    margin-top: 0rem;
+    height: 38rem;
   }
 
   .Hola{
@@ -187,62 +139,26 @@
   .MiFoto412{
     width: 16rem;
     display: flex;
-    justify-content: end;
-    margin-top: -3rem;
-    margin-bottom: -1rem;
+    justify-content: center;
+    margin-top:0rem;
+    margin-bottom: 0rem;
   }
 
   .foto412{
-    width: 4rem;
+    width: 10rem;
     object-fit: contain;
     border-radius: 0.5rem;
     box-shadow: 0rem 0rem 1rem black;
   } 
 
-  .contenedor-proyect{
-    display: flex;
-    align-items: start;
-    margin: 0rem;
-    width: 10rem;
-    flex-direction: column;
-    margin-top: 35rem;
-    margin-right: 8.5rem;
-  }
-
-  .proyect{
-    font-size: 200%;
-    align-items: start;
-    display: flex;
+  .contenedorBoton{
     width: 18rem;
-    margin-bottom: -0.5rem;
+    margin-bottom: -3rem;
   }
 
-  .proyectLet{
-    font-size: 130%;
-    margin-bottom: 0.1rem;
-    width: 13rem;
-    display: flex;
-    font-weight: bolder;
+  .botoNav{
+   margin: 0;
+   width: 1,5rem;
+   
   }
-
-  .contenedor-redes{
-    flex-direction: column;
-    margin: 0;
-    margin-top: 38rem;
-    margin-left: 15rem;
-  }
-
-  .logoGit{
-    margin-bottom: -2.4rem;
-    margin-top: -1rem;
-  }
-
-  .logoLinked{
-    margin-bottom: -2rem;
-  }
-
-  .logoWhasaap{
-    margin-bottom: -2rem;
-  }
-
 }
